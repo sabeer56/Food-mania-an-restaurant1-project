@@ -1,0 +1,218 @@
+body{
+    margin: 0px;
+}
+.img1 img {
+    width: 100%;
+    height: 82vh;
+}
+
+.sections h1 {
+    margin-left: 125px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.sec2 a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(67, 220, 20);
+    font-weight: 900;
+    margin-left: 50px;
+}
+
+.row2 h1 {
+    margin-left: 80px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.row2 h5  {
+  position: relative;
+  top: 0px;
+  left: 100px;
+}
+
+.row3 .fonts h3 {
+    display: inline;
+}
+
+.row3 .fonts img {
+    width: 50px;
+    height: 50px;
+}
+
+.row3 .img1 img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.row3 h1 {
+    margin-right: 150px;
+}
+
+.contact-form {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.part3 {
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Media Queries */
+@media screen and (max-width: 750px) {
+    .part1 {
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(89, 107, 97, 0.589)), url('./H2_BALSA.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 75vh;
+    }
+    .img1 img {
+        width: 100%;
+        height: 65vh;
+    }
+    .sec2 a {
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(67, 220, 20);
+        font-weight: 400;
+        margin-left: 30px;
+    }
+    .sections h1 {
+        margin-left: 20px;
+        font-weight: 100;
+    }
+
+    .row2 .col-md-6 h1 {
+        margin-left: 0px;
+        font-weight: 100;
+    }
+
+    .row2 .col-md-6 h5 button {
+        margin-left: 10px;
+        width: 100px;
+        height: inherit;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sections h1 {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .img1 img {
+        width: 100%;
+        height: 45vh;
+    }
+    .row2 .col-md-6 h1 {
+        margin-left: 10px;
+    }
+    .sec2 a {
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(67, 220, 20);
+        font-weight: 200;
+        margin-left: 15px;
+    }
+    .row2 .col-md-6 h5 button {
+        margin-left: 0;
+        width: 100%;
+        height: inherit;
+    }
+
+    .row3 .fonts h3 {
+        font-size: 16px;
+    }
+
+    .row3 .img1 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .row3 h1 {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    .contact-form {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .contact-form h2 {
+        font-size: 20px;
+    }
+
+    .contact-form input,
+    .contact-form button {
+        margin-bottom: 8px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .part1 {
+        height: 50vh; /* Adjust height as needed */
+    }
+    .img1 img {
+        width: 100%;
+        height: 35vh;
+    }
+    .sec2 a {
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(67, 220, 20);
+        font-weight: 100;
+        margin-left: 15px;
+    }
+    .sections h1 {
+        margin-left: 5px;
+        font-size: 18px; /* Adjust font size as needed */
+    }
+
+    .row2 .col-md-6 h1 {
+        margin-left: 5px;
+        font-size: 18px; /* Adjust font size as needed */
+    }
+
+    .row2 .col-md-6 h5 button {
+        margin-left: 0;
+        width: 100%;
+        height: inherit;
+        font-size: 14px; /* Adjust font size as needed */
+    }
+
+    .row3 .fonts h3 {
+        font-size: 14px; /* Adjust font size as needed */
+    }
+
+    .row3 .img1 img {
+        width: 150px; /* Adjust image width as needed */
+        height: 150px; /* Adjust image height as needed */
+    }
+
+    .row3 h1 {
+        margin-right: 5px;
+        font-size: 18px; /* Adjust font size as needed */
+    }
+
+    .contact-form {
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    .contact-form h2 {
+        font-size: 18px; /* Adjust font size as needed */
+    }
+
+    .contact-form input,
+    .contact-form button {
+        margin-bottom: 4px;
+    }
+}
